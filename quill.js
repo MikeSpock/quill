@@ -23,6 +23,8 @@ import Underline from './formats/underline';
 import Image from './formats/image';
 import Video from './formats/video';
 
+import GingerInline from './formats/ginger-inline';
+
 import CodeBlock, { Code as InlineCode } from './formats/code';
 
 import Formula from './modules/formula';
@@ -83,6 +85,7 @@ Quill.register({
 
   'formats/image': Image,
   'formats/video': Video,
+  'formats/ginger-inline': GingerInline,
 
   'formats/list/item': ListItem,
 
